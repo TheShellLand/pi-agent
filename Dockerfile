@@ -40,7 +40,7 @@ RUN apt update && \
 
 WORKDIR /root/brain/
 
-VOLUME /root/.pi/agent/sessions
+VOLUME /root/.pi/
 
 EXPOSE 3001
 
