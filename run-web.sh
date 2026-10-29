@@ -16,7 +16,6 @@ docker run --rm -it \
   -p 0.0.0.0:80:3001 \
   --shm-size=2g \
   -v //var/run/docker.sock:/var/run/docker.sock \
-  -v $image-pi:/root/.pi \
   -v $image-ssh:/root/.ssh \
   -v $image-memory:/AGENT_MEMORY \
   -v $mount:/root/brain \

@@ -3,5 +3,5 @@
 
 set -xe
 
-pi install npm:@narumitw/pi-goal
+#pi install npm:@narumitw/pi-goal
 

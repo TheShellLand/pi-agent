@@ -14,7 +14,6 @@ docker run --rm -it \
   --network agents \
   --shm-size=2g \
   -v //var/run/docker.sock:/var/run/docker.sock \
-  -v $image-pi:/root/.pi \
   -v $image-ssh:/root/.ssh \
   -v $image-memory:/AGENT_MEMORY \
   -v $mount:/root/brain:ro \
