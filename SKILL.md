@@ -21,15 +21,16 @@ Alternatively, you can install these binaries into your system's bin path for ea
 ./install/install-docker.sh
 ```
 
-After running this script, the following executables will be available in `/usr/bin`:
+## Building Images
 
-| Command | Source Script | Description |
-|---------|---------------|-------------|
-| `pi-docker` | `$docker` | Primary Docker entry point |
-| `pi-d` | `$docker` | Short docker command |
-| `pi-loop` | `$loop` | Loop mode interface |
-| `pi-web` | `$web` | Web interface |
-| `pi-ro` | `$ro` | RO (Read Only) / specialized view |
+Depending on your specific needs, there are different scripts for building the project containers:
+
+| Script | Purpose | References / Details |
+|--------|---------|----------------------|
+| `build.sh` | Build only the Pi Coding Agent image. | N/A |
+| `build-antsable.sh` | Build with Ansible and install environment components via [readyup-agents.yml](https://github.com/TheShellLand/antsable/blob/master/playbooks/readyup-agents.yml) using roles from [Debian_agent](https://github.com/TheShellLand/antsable/blob/master/playbooks/roles/readyup/tasks/Debian-agent.yml). | Ansible Playbook |
+| `build-python.sh` | Build including all Python package requirements for the project architecture. | Based on https://github.com/TheShellLand/automonisaur |
+| `build-all.sh` | Builds every image required to build and run antsable in entirety. | Full Suite |
 
 ## Running Pi Directly (Local Installation)
 
