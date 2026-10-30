@@ -9,6 +9,6 @@ fi
 
 while true; do 
   echo """+ pi -p "$1""""
-  pi -p "$1"
+  pi --approve -p "$1"
   sleep $SLEEP_SEC
 done
