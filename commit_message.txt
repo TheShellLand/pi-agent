@@ -1,0 +1,3 @@
+build(antsable): update Dockerfile and build scripts
+
+Update the base image in Dockerfile-antsable to use pi-agent:python instead of pi-agent-python:latest. Update build-antsable.sh to correctly tag images as antsable before tagging them as latest, and ensure Python image is removed from the local docker daemon after building. Update build-python.sh to simplify tags for consistent usage across both anta-sdale and python builds.

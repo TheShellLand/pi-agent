@@ -7,9 +7,9 @@ set -xe
 
 cd "$(dirname $0)"
 
-docker build "$@" -t $image:latest -f Dockerfile-antsable .
-docker tag $image:antsable pi-agent:latest
-docker image rm $iamge:python
+docker build "$@" -t $image:antsable -f Dockerfile-antsable .
+docker image rm $image:python
+docker tag $image:antsable $image:latest
 
 docker builder prune -f
 

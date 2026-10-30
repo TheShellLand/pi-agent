@@ -1,4 +1,4 @@
-FROM pi-agent-python:latest
+FROM pi-agent:python
 
 # ansible
 RUN apt update && \
