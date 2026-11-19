@@ -21,6 +21,23 @@
           },
           "contextWindow": 20480,
           "maxTokens": 16374
+        },
+        {
+          "id": "embeddinggemma-2",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": "off",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high"
+          },
+          "contextWindow": 8192,
+          "maxTokens": 16374
         }
       ]
     },
@@ -44,6 +61,23 @@
             "high": "high"
           },
           "contextWindow": 20480,
+          "maxTokens": 16374
+        },
+        {
+          "id": "embeddinggemma-2",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": "off",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high"
+          },
+          "contextWindow": 8192,
           "maxTokens": 16374
         }
       ]
@@ -69,6 +103,23 @@
           },
           "contextWindow": 20480,
           "maxTokens": 16374
+        },
+        {
+          "id": "embeddinggemma-2",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": "off",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high"
+          },
+          "contextWindow": 8192,
+          "maxTokens": 16374
         }
       ]
     },
@@ -92,6 +143,23 @@
             "high": "high"
           },
           "contextWindow": 20480,
+          "maxTokens": 16374
+        },
+        {
+          "id": "embeddinggemma-2",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": "off",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high"
+          },
+          "contextWindow": 8192,
           "maxTokens": 16374
         }
       ]
@@ -117,6 +185,23 @@
           },
           "contextWindow": 20480,
           "maxTokens": 16374
+        },
+        {
+          "id": "embeddinggemma-2",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": "off",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high"
+          },
+          "contextWindow": 8192,
+          "maxTokens": 16374
         }
       ]
     },
@@ -140,6 +225,23 @@
             "high": "high"
           },
           "contextWindow": 20480,
+          "maxTokens": 16374
+        },
+        {
+          "id": "embeddinggemma-2",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": "off",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high"
+          },
+          "contextWindow": 8192,
           "maxTokens": 16374
         }
       ]

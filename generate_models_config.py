@@ -14,7 +14,7 @@ def provider_template(name, baseUrl, models):
 
 def model_template(
 	name, 
-	input=['text', 'image'], 
+	input=['text', 'image', 'audio', 'video'], 
 	reasoning=True, 
 	contextWindow=20480, 
 	maxTokens=16374,
@@ -44,9 +44,10 @@ def write_models_config(config):
 def main():
 
 	models = [
-		model_template(name='gemma4:12b', contextWindow=20480, maxTokens=16374)
-		#model_template(name='gemma4:12b', contextWindow=20480, maxTokens=16374)
-		#model_template(name='igorls/gemma-4-12B-it-heretic-GGUF', contextWindow=20480, maxTokens=16374)
+		model_template(name='gemma4:12b', contextWindow=20480, maxTokens=16374, input=['text', 'image']),
+		model_template(name='embeddinggemma-2', contextWindow=8192, input=['text', 'image']),
+		#model_template(name='gemma4:12b', contextWindow=20480, maxTokens=16374),
+		#model_template(name='igorls/gemma-4-12B-it-heretic-GGUF', contextWindow=20480, maxTokens=16374),
 	]
 
 	providers = (

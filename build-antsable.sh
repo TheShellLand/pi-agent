@@ -11,7 +11,7 @@ docker build "$@" -t $image:antsable -f Dockerfile-antsable .
 docker image rm $image:python
 docker tag $image:antsable $image:latest
 
-docker builder prune -f
+docker builder prune -fa
 
 docker images | grep $image
 
