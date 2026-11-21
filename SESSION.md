@@ -21,3 +21,6 @@ The system is currently in a stable, well-documented state with automated mainte
 ## Latest Status:
 - **Current State**: Stable. Active loops are being serviced correctly.
 - **Next Actions**: Routine maintenance via active loops.
+
+[Discovery]
+Located write-git-commit-messages skill in /tmp/SKILLS.

@@ -1,0 +1,4 @@
+Discovered Git Skills in /tmp/SKILLS:
+- fix-git-commit-identity
+- rebase-git-commit-messages
+- write-git-commit-messages (Primary skill for commit message formatting)
