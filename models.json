@@ -28,14 +28,7 @@
             "text",
             "image"
           ],
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "off": "off",
-            "minimal": "minimal",
-            "low": "low",
-            "medium": "medium",
-            "high": "high"
-          },
+          "reasoning": false,
           "contextWindow": 8192,
           "maxTokens": 16374
         }
@@ -69,14 +62,7 @@
             "text",
             "image"
           ],
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "off": "off",
-            "minimal": "minimal",
-            "low": "low",
-            "medium": "medium",
-            "high": "high"
-          },
+          "reasoning": false,
           "contextWindow": 8192,
           "maxTokens": 16374
         }
@@ -110,14 +96,7 @@
             "text",
             "image"
           ],
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "off": "off",
-            "minimal": "minimal",
-            "low": "low",
-            "medium": "medium",
-            "high": "high"
-          },
+          "reasoning": false,
           "contextWindow": 8192,
           "maxTokens": 16374
         }
@@ -151,14 +130,7 @@
             "text",
             "image"
           ],
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "off": "off",
-            "minimal": "minimal",
-            "low": "low",
-            "medium": "medium",
-            "high": "high"
-          },
+          "reasoning": false,
           "contextWindow": 8192,
           "maxTokens": 16374
         }
@@ -192,14 +164,7 @@
             "text",
             "image"
           ],
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "off": "off",
-            "minimal": "minimal",
-            "low": "low",
-            "medium": "medium",
-            "high": "high"
-          },
+          "reasoning": false,
           "contextWindow": 8192,
           "maxTokens": 16374
         }
@@ -233,14 +198,7 @@
             "text",
             "image"
           ],
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "off": "off",
-            "minimal": "minimal",
-            "low": "low",
-            "medium": "medium",
-            "high": "high"
-          },
+          "reasoning": false,
           "contextWindow": 8192,
           "maxTokens": 16374
         }

@@ -18,11 +18,20 @@ def model_template(
         contextWindow=20480,
         maxTokens=16374,
 ):
+    if reasoning:
+        return dict(
+            id=name,
+            input=input,
+            reasoning=reasoning,
+            thinkingLevelMap=dict(off='off', minimal='minimal', low='low', medium='medium', high='high'),
+            contextWindow=contextWindow,
+            maxTokens=maxTokens,
+        )
+
     return dict(
         id=name,
         input=input,
         reasoning=reasoning,
-        thinkingLevelMap=dict(off='off', minimal='minimal', low='low', medium='medium', high='high'),
         contextWindow=contextWindow,
         maxTokens=maxTokens,
     )
@@ -42,8 +51,8 @@ def write_models_config(config):
 
 def main():
     models = [
-    # Added a comment for verification of goal completion\n        model_template(name='gemma4:12b', contextWindow=20480, maxTokens=16374, input=['text', 'image']),
-        model_template(name='embeddinggemma-2', contextWindow=8192, input=['text', 'image']),
+        model_template(name='gemma4:12b', contextWindow=20480, maxTokens=16374, input=['text', 'image']),
+        model_template(name='embeddinggemma-2', contextWindow=8192, input=['text', 'image'], reasoning=False),
         # model_template(name='gemma4:12b', contextWindow=20480, maxTokens=16374),
         # model_template(name='igorls/gemma-4-12B-it-heretic-GGUF', contextWindow=20480, maxTokens=16374),
     ]
