@@ -1,0 +1,11 @@
+FROM pi-agent:latest
+
+ENV PATH="/opt/sqlite-vector/bin:${PATH}"
+
+# sqlite3 ships with Python. sqlite-vec adds vector search.
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends python3 python3-venv && \
+    rm -rf /var/lib/apt/lists/* && \
+    python3 -m venv /opt/sqlite-vector && \
+    python -m pip install --no-cache-dir sqlite-vec && \
+    python -c 'import sqlite3, sqlite_vec; db = sqlite3.connect(":memory:"); db.enable_load_extension(True); sqlite_vec.load(db); db.enable_load_extension(False); print(db.execute("SELECT vec_version()").fetchone()[0])'
