@@ -30,5 +30,3 @@ if sudo touch /usr/local/bin/.TOUCH 2>/dev/null ; then
 	sudo cp $web /usr/local/bin/pi-web
 	sudo cp $ro /usr/local/bin/pi-ro
 fi
-
-

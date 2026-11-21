@@ -13,4 +13,3 @@ npm install -g --ignore-scripts @earendil-works/pi-coding-agent
 #cp -v ../models.json "$_HOME"/.pi/agent/models.json
 
 bash install-local-common.sh
-

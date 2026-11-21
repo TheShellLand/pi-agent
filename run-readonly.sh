@@ -18,4 +18,3 @@ docker run --rm -it \
   -v $image-memory:/AGENT_MEMORY \
   -v $mount:/root/brain:ro \
   $image "$@" 
-

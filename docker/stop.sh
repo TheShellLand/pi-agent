@@ -6,4 +6,3 @@ image="pi-agent"
 set -ex
 
 docker rm -f $image
-

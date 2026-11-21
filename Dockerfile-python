@@ -1,4 +1,4 @@
-FROM pi-agent:sqlite3-vector
+FROM pi-agent:latest
 
 COPY install /install
 

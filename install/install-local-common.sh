@@ -46,7 +46,7 @@ cp -v ../settings.json "$HOME/.pi/agent/settings.json"
 
 # copy bin
 mkdir -p $HOME/.pi/agent/bin
-cp -v ../docker/bin/* $HOME/.pi/agent/bin/
+cp -v ../install/bin/* $HOME/.pi/agent/bin/
 
 
 # install pi extensions
@@ -60,4 +60,3 @@ pi update --extensions
 npm update
 
 exit 0
-
