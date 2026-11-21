@@ -1,3 +1,3 @@
-[skills] Add sqlite3 vector support
+refactor(build): update binary copy source in Dockerfile
 
-Create new Dockerfile and build script for sqlite3 vector integration. Update existing dockerfiles to include necessary dependencies and requirements.
+Update Dockerfile to copy binaries from 'install/bin' instead of 'docker/bin'. This aligns with the new directory structure where tools are prepared before building the image.

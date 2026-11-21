@@ -17,7 +17,7 @@ COPY install /install
 COPY models.json /root/.pi/agent/models.json
 COPY settings.json /root/.pi/agent/settings.json
 #COPY auth.json /root/.pi/agent/models.json
-COPY docker/bin /root/.pi/agent/bin
+COPY install/bin /root/.pi/agent/bin
 
 COPY entrypoint.sh /pi.sh
 
