@@ -52,7 +52,7 @@ def write_models_config(config):
 def main():
     models = [
         model_template(name='gemma4:12b', contextWindow=20480, maxTokens=16374, input=['text', 'image']),
-        model_template(name='embeddinggemma-2', contextWindow=8192, input=['text', 'image'], reasoning=False),
+        # model_template(name='embeddinggemma-2', contextWindow=8192, input=['text', 'image'], reasoning=False),
         # model_template(name='gemma4:12b', contextWindow=20480, maxTokens=16374),
         # model_template(name='igorls/gemma-4-12B-it-heretic-GGUF', contextWindow=20480, maxTokens=16374),
     ]
