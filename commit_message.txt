@@ -1,3 +1,0 @@
-refactor(build): update binary copy source in Dockerfile
-
-Update Dockerfile to copy binaries from 'install/bin' instead of 'docker/bin'. This aligns with the new directory structure where tools are prepared before building the image.
