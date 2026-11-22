@@ -48,7 +48,8 @@ Perform this workflow once per task, even if instructions or skills were read du
 
 ## Handle preparation failures
 
-If cloning, updating, or recovery fails, report the failure and continue with available local skills unless the failure prevents
+If cloning, updating, or recovery fails, report the failure and continue with available local skills unless the failure
+prevents
 completing the task correctly. If the selected directory's `AGENTS.md` is missing, report that and continue using
 this project's instructions and available tools. Do not silently skip required steps or claim full compliance when
 a requirement could not be completed.

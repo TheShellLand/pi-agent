@@ -21,16 +21,6 @@
           },
           "contextWindow": 20480,
           "maxTokens": 16374
-        },
-        {
-          "id": "embeddinggemma-2",
-          "input": [
-            "text",
-            "image"
-          ],
-          "reasoning": false,
-          "contextWindow": 8192,
-          "maxTokens": 16374
         }
       ]
     },
@@ -54,16 +44,6 @@
             "high": "high"
           },
           "contextWindow": 20480,
-          "maxTokens": 16374
-        },
-        {
-          "id": "embeddinggemma-2",
-          "input": [
-            "text",
-            "image"
-          ],
-          "reasoning": false,
-          "contextWindow": 8192,
           "maxTokens": 16374
         }
       ]
@@ -89,16 +69,6 @@
           },
           "contextWindow": 20480,
           "maxTokens": 16374
-        },
-        {
-          "id": "embeddinggemma-2",
-          "input": [
-            "text",
-            "image"
-          ],
-          "reasoning": false,
-          "contextWindow": 8192,
-          "maxTokens": 16374
         }
       ]
     },
@@ -122,16 +92,6 @@
             "high": "high"
           },
           "contextWindow": 20480,
-          "maxTokens": 16374
-        },
-        {
-          "id": "embeddinggemma-2",
-          "input": [
-            "text",
-            "image"
-          ],
-          "reasoning": false,
-          "contextWindow": 8192,
           "maxTokens": 16374
         }
       ]
@@ -157,16 +117,6 @@
           },
           "contextWindow": 20480,
           "maxTokens": 16374
-        },
-        {
-          "id": "embeddinggemma-2",
-          "input": [
-            "text",
-            "image"
-          ],
-          "reasoning": false,
-          "contextWindow": 8192,
-          "maxTokens": 16374
         }
       ]
     },
@@ -190,16 +140,6 @@
             "high": "high"
           },
           "contextWindow": 20480,
-          "maxTokens": 16374
-        },
-        {
-          "id": "embeddinggemma-2",
-          "input": [
-            "text",
-            "image"
-          ],
-          "reasoning": false,
-          "contextWindow": 8192,
           "maxTokens": 16374
         }
       ]
