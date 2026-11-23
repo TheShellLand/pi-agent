@@ -44,4 +44,4 @@ WORKDIR /root/brain/
 
 EXPOSE 3001
 
-ENTRYPOINT ["/pi.sh"]
+ENTRYPOINT ["bash", "/pi.sh"]
