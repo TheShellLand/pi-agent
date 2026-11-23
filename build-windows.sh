@@ -17,3 +17,5 @@ docker build --no-cache "$@" -t $image:latest -f Dockerfile .
 
 docker builder prune -fa
 docker images | grep $image
+
+echo "make sure to run this from WSL `bash` "
