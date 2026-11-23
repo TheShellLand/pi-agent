@@ -7,7 +7,8 @@ set -xe
 
 cd "$(dirname $0)"
 
-python3 generate_models_config.py
+
+python generate_models_config.py || python3 generate_models_config.py
 
 docker build --no-cache "$@" -t $image:latest -f Dockerfile .
 
