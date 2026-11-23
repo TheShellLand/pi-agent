@@ -1,5 +1,6 @@
 #!/bin/bash
-# build image 
+# build image on windows
+# it needs to fix dos2unix for *.sh files
 
 image="pi-agent"
 
