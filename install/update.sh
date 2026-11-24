@@ -1,19 +1,4 @@
 #!/bin/bash
-# update pi, npm, and models
-
-cd "$(dirname $0)"
-
-set -xe
-
-#git pull || echo
-
-pi -v
-
-bash install-local-common.sh
-
-pi update
-pi update --extensions
-
-npm update
-
-pi -v
+# This script wraps local-update.sh
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+"$DIR/local-update.sh" "$@"
