@@ -97,7 +97,7 @@
       ]
     },
     "ollama_docker": {
-      "baseUrl": "http://ollama:11434/v1",
+      "baseUrl": "http://ollama-agent:11434/v1",
       "api": "openai-completions",
       "apiKey": "ollama",
       "models": [
